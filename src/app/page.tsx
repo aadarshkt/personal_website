@@ -7,23 +7,30 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-            Hi, I'm <span className="text-blue-600 dark:text-blue-400">Aadarsh Kumar Tiwari</span>
-          </h1>
-          <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-            Software Developer | Problem Solver | Tech Enthusiast
-          </p>
-          <div className="flex gap-4 justify-center">
-            <Link
-              href="#projects"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors">
-              View Projects
-            </Link>
-            <Link
-              href="#contact"
-              className="px-6 py-3 border border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
-              Contact Me
-            </Link>
+          <div className="space-y-6">
+            <h1 className="text-4xl sm:text-6xl font-bold mb-6">
+              <span className="inline-block animate-fade-in-up-delayed bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+                Hi, I&apos;m
+              </span>{" "}
+              <span className="inline-block animate-fade-in-up-delayed-2 text-blue-600 dark:text-blue-400">
+                Aadarsh Kumar Tiwari
+              </span>
+            </h1>
+            <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 animate-fade-in-up-delayed-3">
+              Software Developer | Problem Solver | Tech Enthusiast
+            </p>
+            <div className="flex gap-4 justify-center animate-fade-in-up-delayed-4">
+              <Link
+                href="#projects"
+                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors">
+                View Projects
+              </Link>
+              <Link
+                href="#contact"
+                className="px-6 py-3 border border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                Contact Me
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -35,8 +42,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                I'm a passionate software developer with expertise in building modern web applications. I love creating
-                elegant solutions to complex problems and am constantly learning new technologies.
+                I&apos;m a passionate software developer with expertise in building modern web applications. I love
+                creating elegant solutions to complex problems and am constantly learning new technologies.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 My journey in software development started [Your Story]. I specialize in [Your Skills] and enjoy working
@@ -126,7 +133,8 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">Get in Touch</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your
+            visions.
           </p>
           <Link
             href="mailto:your.email@example.com"
