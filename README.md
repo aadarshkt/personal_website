@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Website
+
+A modern, responsive personal website built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 🎨 Modern and clean design
+- 📱 Fully responsive
+- 🌙 Dark mode support
+- ⚡ Fast performance
+- 🔍 SEO optimized
+- 🎯 Smooth scrolling
+- 📱 Mobile-friendly navigation
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd personal_website
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
 
-## Learn More
+1. Update your name in `src/app/layout.tsx` and `src/components/Navigation.tsx`
+2. Modify the about section in `src/app/page.tsx`
+3. Add your own projects in the projects section
+4. Update the contact email in the contact section
 
-To learn more about Next.js, take a look at the following resources:
+### Images
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Add your profile picture as `public/placeholder-profile.jpg`
+2. Add project screenshots as `public/project1.jpg`, `public/project2.jpg`, etc.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Styling
 
-## Deploy on Vercel
+- The website uses Tailwind CSS for styling
+- You can modify colors, spacing, and other styles in the component files
+- The color scheme can be customized by modifying the Tailwind classes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The website can be deployed to Vercel with a single click:
+
+1. Push your code to GitHub
+2. Import your repository in Vercel
+3. Deploy!
+
+## Technologies Used
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React
+- ESLint
+
+## License
+
+MIT
